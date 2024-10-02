@@ -1,0 +1,6 @@
+main: me.mattix.ytplugin.Main
+name: FallenKingdoms
+version: 1.0
+author: MattiX
+commands:
+  test:
