@@ -21,7 +21,7 @@ public class PlayerQuitListener implements Listener {
 		
 		event.setQuitMessage(null);
 		
-		if (!GameStatus.isStatus(GameStatus.ATTENTE)) createPNJ(player);
+		if (!GameStatus.isStatus(GameStatus.ASSAUTS)) createPNJ(player);
 	}
 	
 	@EventHandler
